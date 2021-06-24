@@ -1,9 +1,9 @@
 #!/bin/bash
-PYTHON_VERSION=`python -c 'import sys; version=sys.version_info[:3]; print("{0}.{1}".format(*version))'`
+source $HOME/start
 
 HIGHLIGHTING=ressources/codemirror/raku.js
 
-CM_RAKU="/srv/conda/envs/notebook/lib/python$PYTHON_VERSION/site-packages/notebook/static/components/codemirror/mode/raku"
+CM_RAKU="/srv/conda/envs/notebook/lib/$PYTHON_VERSION/site-packages/notebook/static/components/codemirror/mode/raku"
 mkdir $CM_RAKU
 
 cp $HIGHLIGHTING $CM_RAKU/raku.js

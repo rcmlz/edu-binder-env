@@ -1,1 +1,3 @@
 #!/bin/bash
+# To Do: dynamically detect python version
+PYTHON_VERSION="python3.7"
