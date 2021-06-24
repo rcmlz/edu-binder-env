@@ -1,0 +1,20 @@
+channels:
+  - conda-forge
+dependencies:
+  - nbgitpuller
+  - jupyterlab-git
+  - rise
+  - r-base
+  - r-devtools
+  - r-irkernel
+  - r-units
+  - r-tidyverse
+  - r-rmarkdown
+  - r-httr
+  - r-shinydashboard
+  - r-leaflet
+  - r-caret
+  - r-dplyr
+  - r-scales
+  - r-formatR
+  - r-units

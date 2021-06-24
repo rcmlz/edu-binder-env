@@ -1,0 +1,25 @@
+#!/bin/bash
+echo '#!/bin/bash' > ~/start
+
+chmod +x postBuild.d/*.sh
+
+for file in postBuild.d/*.sh; do
+    [ -f "$file" ] || continue
+    $file
+done
+
+echo 'exec "$@"' >> ~/start
+
+jupyter kernelspec list > ~/kernel.list
+
+rm -rf $HOME/.git
+rm -rf $HOME/.cache
+rm -rf $HOME/.yarn
+rm -rf $HOME/.cpan
+rm -rf $HOME/.cpanm
+rm -rf $HOME/.empty
+rm -rf $HOME/.gitignore
+rm -rf $HOME/LICENSE
+rm -rf $HOME/*.md
+rm -rf binder
+#rm -- "$0" #delete this script
