@@ -1,16 +1,16 @@
 #!/bin/bash
-export PERL_PATH=$HOME/.perl5
-export PATH="$PERL_PATH/bin:$PATH"
-export PERL5LIB=$PERL_PATH/lib/perl5
-
+PERL_PATH=$HOME/.perl5
 echo "export PERL_PATH=$PERL_PATH" >> $HOME/start
 echo "export PATH=$PERL_PATH/bin:\$PATH" >> $HOME/start
-echo "export PERL5LIB=$PERL5LIB" >> $HOME/start
 
-cd $HOME
-cpanm --notest --local-lib=$PERL_PATH --installdeps .
+PERL5LIB=$PERL_PATH:$PERL_PATH/lib/perl5
+echo "export PERL5LIB=$PERL5LIB:\$PERL5LIB" >> $HOME/start
 
-# moved to cpanfile
+source $HOME/start
+
+PATH="$PERL_PATH/bin:$PATH"
+
+#cpanm --sudo --local-lib=$PERL_PATH local::lib && eval $(perl -I$PERL5LIB -Mlocal::lib)
 cpanm --local-lib=$PERL_PATH Devel::IPerl
 
 # make sure that kernel.json is created
