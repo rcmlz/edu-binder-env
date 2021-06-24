@@ -5,7 +5,7 @@ source $HOME/start
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 
 echo "export PATH=$HOME/.cargo/bin:\$PATH" >> ~/start
-#echo "source $HOME/.cargo/env" >> ~/start
+echo "source $HOME/.cargo/env" >> ~/start
 
 source $HOME/start
 source $HOME/.cargo/env

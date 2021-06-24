@@ -1,45 +1,28 @@
 #!/bin/bash
-export RESSOURCES_DIR=$HOME/ressources
-export POSTBUILD_DIR=$HOME/postBuild.d
-export POSTBUILD_SCRIPTS=$POSTBUILD_DIR/*.sh
-export START_SCRIPT=$HOME/start
+chmod +x postBuild.d/*.sh
 
-# $HOME/start is run at startup of container
-# so we keep here custom PATH etc. created by postBuild scripts
-# echo '#!/bin/bash' >> $START_SCRIPT
-
-chmod +x $POSTBUILD_SCRIPTS
-for file in $POSTBUILD_SCRIPTS; do
+for file in postBuild.d/*.sh; do
     [ -f "$file" ] || continue
     $file
 done
 
-# required last line
-echo 'exec "$@"' >> $START_SCRIPT
-echo '. "$HOME/start"' >> $HOME/.bashrc
+echo 'exec "$@"' >> ~/start
 
-# just for debugging
-jupyter kernelspec list > ~/.kernel.list
+jupyter kernelspec list > ~/kernel.list
 
-# clean up - minimize disc space used
-rm -rf $POSTBUILD_DIR
-rm -rf $RESSOURCES_DIR
-
-rm -rf $HOME/.git
-rm -rf $HOME/.cache
-rm -rf $HOME/.yarn
-rm -rf $HOME/.cpan
-rm -rf $HOME/.cpanm
-rm -rf $HOME/cpanfile
-rm -rf $HOME/.empty
-rm -rf $HOME/.npm/_cacache
-
-rm -f $HOME/.gitignore
-rm -f $HOME/LICENSE
-rm -f $HOME/*.md
-rm -f $HOME/*.toml
-rm -f $HOME/*.R
-rm -f $HOME/*.txt
-rm -f $HOME/*.yml
-
+rm -rf postBuild.*
+rm -rf .git
+rm -rf ressources
+rm -rf .cache
+rm -rf .yarn
+rm -rf .cpan
+rm -rf .cpanm
+rm -rf .empty
+rm .gitignore
+rm *.toml
+rm *.R
+rm *.txt
+rm *.yml
+rm *.md
+rm LICENSE
 rm -- "$0"
