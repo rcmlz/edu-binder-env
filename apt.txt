@@ -60,7 +60,6 @@ libtool-bin
 
 #Jupyter-LaTeX - nice to have for exporting to pdf
 texlive-full
-texlive-generic-recommended
 fonts-gfs-bodoni-classic
 fonts-gfs-didot-classic
 fonts-gfs-gazis
