@@ -1,4 +1,7 @@
 channels:
+  - main
+  - anaconda
+  - conda-forge
   - jetbrains
 dependencies:
   - r-base=3.6
