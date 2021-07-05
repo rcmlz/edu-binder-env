@@ -9,6 +9,9 @@ dependencies:
   - python=3.7
   - nbgitpuller
   - jupyterlab-git
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - tikzmagic
   - rise
   - xeus-cling
   - xeus-sqlite

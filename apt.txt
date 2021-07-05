@@ -70,3 +70,4 @@ context-modules
 gsfonts
 gnuplot
 ghostscript
+pdf2svg
