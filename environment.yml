@@ -57,6 +57,7 @@ dependencies:
   - r-units
   - r-formatR
   - coq-jupyter
+  - tikzmagic
   - pip
   - pip:
     - emu86
