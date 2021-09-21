@@ -25,3 +25,4 @@ jupyter nbextension enable limit_output/main --sys-prefix
 jupyter nbextension enable contrib_nbextensions_help_item/main --sys-prefix
 jupyter nbextension enable rubberband/main --sys-prefix
 jupyter nbextension enable exercise/main --sys-prefix
+jupyter nbextension enable toc2/main --sys-prefix
