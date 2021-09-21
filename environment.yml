@@ -13,6 +13,9 @@ dependencies:
   - jupyter_nbextensions_configurator
   - tikzmagic
   - rise
+  - yapf
+  - ipywidgets
+  - widgetsnbextension
   - xeus-cling
   - xeus-sqlite
   - sqlite
@@ -67,3 +70,5 @@ dependencies:
     - elm_kernel
     - jupyterlab_latex
     - gnuplot_kernel
+    - ipyturtle
+    - mobilechelonian
