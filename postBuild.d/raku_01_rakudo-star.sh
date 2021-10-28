@@ -13,4 +13,4 @@ rm -fr rakudo-star-*
 
 # ensure jupyter-kernel.raku is in path at startup of jupyter
 
-echo "export PATH=$INSTALL_DIR/bin/:$INSTALL_DIR/share/perl6/site/bin:$INSTALL_DIR/share/perl6/vendor/bin:$INSTALL_DIR/share/perl6/core/bin:\$PATH" >> ~/start
+echo "export PATH=$INSTALL_DIR/bin/:$INSTALL_DIR/share/perl6/site/bin:$INSTALL_DIR/share/perl6/vendor/bin:$INSTALL_DIR/share/perl6/core/bin:$PATH" >> ~/start
