@@ -61,6 +61,7 @@ dependencies:
   - r-formatR
   - coq-jupyter
   - pip
+  - Pillow
   - pip:
     - emu86
     - jupyter-c-kernel
