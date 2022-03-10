@@ -30,7 +30,6 @@ dependencies:
   - kotlin-jupyter-kernel
   - bash_kernel
   - setuptools
-  - ipywidgets
   - ipyvolume
   - appmode
   - numpy
