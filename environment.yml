@@ -1,7 +1,7 @@
 channels:
   - main
-  - anaconda
   - conda-forge
+  - anaconda
 dependencies:
   - nbgitpuller
   - jupyterlab-git
