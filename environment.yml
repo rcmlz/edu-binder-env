@@ -6,7 +6,7 @@ channels:
 dependencies:
   - r-base
   - r-irkernel
-  - python=3.9
+  - python
   - nbgitpuller
   - jupyterlab-git
   - jupyter_contrib_nbextensions
