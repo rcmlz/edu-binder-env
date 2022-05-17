@@ -4,9 +4,9 @@ channels:
   - conda-forge
   - jetbrains
 dependencies:
-  - r-base
-  - r-irkernel
-  - python
+  - r-base=3.6
+  - r-irkernel=1.1
+  - python=3.8
   - nbgitpuller
   - jupyterlab-git
   - jupyter_contrib_nbextensions
