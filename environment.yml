@@ -16,6 +16,7 @@ dependencies:
   - metakernel
   - appmode
   - numpy
+  - pycryptodome
   - matplotlib
   - pandas
   - seaborn
