@@ -33,6 +33,7 @@ dependencies:
   - ipyvolume
   - appmode
   - numpy
+  - pycryptodome
   - matplotlib
   - pandas
   - seaborn
