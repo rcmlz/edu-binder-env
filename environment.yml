@@ -4,17 +4,17 @@ channels:
   - anaconda
 dependencies:
   - python=3.10
-  - appmode
-  - beautifulsoup4
+#  - appmode
+#  - beautifulsoup4
   - bokeh
-  - boto
-  - ipydatawidgets
+#  - boto
+#  - ipydatawidgets
   - ipympl
-  - ipython
-  - ipywidgets
+#  - ipython
+#  - ipywidgets
   - jedi-language-server
   - jupyter_contrib_nbextensions
-  - jupyter_nbextensions_configurator
+#  - jupyter_nbextensions_configurator
   - jupyter-book
   - jupyterlab
   - jupyterlab-git
@@ -29,7 +29,7 @@ dependencies:
   - nbgitpuller
   - numpy
   - pandas
-  - pgzero
+#  - pgzero
   - pillow
   - pip
   - plotly
@@ -39,7 +39,7 @@ dependencies:
   - pylint
   - pytorch
   - requests
-  - rise
+#  - rise
   - scikit-learn
   - scipy
   - scrapy
@@ -48,7 +48,7 @@ dependencies:
   - tensorflow
   - tikzmagic
   - wheel
-  - widgetsnbextension
+#  - widgetsnbextension
   - yapf
   - pip:
     - bokeh-sampledata
@@ -60,5 +60,5 @@ dependencies:
     - mobilechelonian
     - mysql-connector
     - pedal
-    - pygame-ce
-    - tkinter
+#    - pygame-ce
+#    - tkinter
