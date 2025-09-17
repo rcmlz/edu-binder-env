@@ -52,7 +52,6 @@ dependencies:
   - yapf
   - pip:
     - bokeh-sampledata
-    - distutils
     - jupyterlab_latex
     - ipyturtle
     - jturtle
