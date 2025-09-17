@@ -7,15 +7,12 @@ dependencies:
   - appmode
   - beautifulsoup4
   - bokeh
-  - bokeh-sampledata
   - boto
-  - distutils
   - ipydatawidgets
   - ipympl
   - ipython
   - ipywidgets
   - jedi-language-server
-  - jturtle
   - jupyter_contrib_nbextensions
   - jupyter_nbextensions_configurator
   - jupyter-book
@@ -23,18 +20,15 @@ dependencies:
   - jupyterlab-git
   - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
-  - jupyterlab-widgets
   - jupytext
   - keras
   - keyboard
   - mariadb
   - matplotlib
   - metakernel
-  - mysql-connector
   - nbgitpuller
   - numpy
   - pandas
-  - pedal
   - pgzero
   - pillow
   - pip
@@ -42,7 +36,6 @@ dependencies:
   - prettytable
   - pycryptodome
   - pydot
-  - pygame-ce
   - pylint
   - pytorch
   - requests
@@ -54,11 +47,18 @@ dependencies:
   - tabulate
   - tensorflow
   - tikzmagic
-  - tkinter
   - wheel
   - widgetsnbextension
   - yapf
   - pip:
+    - bokeh-sampledata
+    - distutils
     - jupyterlab_latex
     - ipyturtle
+    - jturtle
+    - jupyterlab-widgets
     - mobilechelonian
+    - mysql-connector
+    - pedal
+    - pygame-ce
+    - tkinter
