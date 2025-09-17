@@ -31,7 +31,7 @@ dependencies:
   - pandas
 #  - pgzero
   - pillow
-  - pip
+#  - pip
   - plotly
   - prettytable
   - pycryptodome
@@ -49,15 +49,15 @@ dependencies:
   - tikzmagic
   - wheel
 #  - widgetsnbextension
-  - yapf
-  - pip:
-    - bokeh-sampledata
-    - jupyterlab_latex
-    - ipyturtle
-    - jturtle
-    - jupyterlab-widgets
-    - mobilechelonian
-    - mysql-connector
-    - pedal
+#  - yapf
+#  - pip:
+#    - bokeh-sampledata
+#    - jupyterlab_latex
+#    - ipyturtle
+#    - jturtle
+#    - jupyterlab-widgets
+#    - mobilechelonian
+#    - mysql-connector
+#    - pedal
 #    - pygame-ce
 #    - tkinter
