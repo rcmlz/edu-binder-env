@@ -13,7 +13,7 @@ dependencies:
 #  - ipython
 #  - ipywidgets
   - jedi-language-server
-  - jupyter_contrib_nbextensions
+#  - jupyter_contrib_nbextensions
 #  - jupyter_nbextensions_configurator
   - jupyter-book
   - jupyterlab
