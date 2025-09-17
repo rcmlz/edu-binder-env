@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
-  -	python
+  - python
   -	appmode
   -	beautifulsoup4
   -	bokeh
