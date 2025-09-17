@@ -1,5 +1,7 @@
 #!/bin/bash
 
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+
 # jupyter contrib nbextension install --sys-prefix
 
 # jupyter nbextension install rise --py --sys-prefix

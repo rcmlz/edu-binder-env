@@ -4,4 +4,7 @@ This repository is intendent to be used as environment repository via [nbgitpull
 
 |Language|Lab|Description|
 |:--|:--|:--|
-|[Python](https://www.python.org/)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rcmlz/edu-binder-env/python?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Frcmlz%252Fedu-public-jupyter-notebooks%26urlpath%3Dlab%252Ftree%252Flectures%252F%26branch%3Dmaster)|[Python](https://www.python.org/) is a programming language that lets you work quickly and integrate systems more effectively.|
+|[Python](https://www.python.org/)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rcmlz/edu-public-jupyter-notebooks/python?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Frcmlz%252Fedu-public-jupyter-notebooks%26urlpath%3Dlab%252Ftree%252Fedu-public-jupyter-notebooks%252Flectures%252FBericht-Vorlage.ipynb%26branch%3Dmain)|[Python](https://www.python.org/) is a programming language that lets you work quickly and integrate systems more effectively.|
+
+---
+[Binder Link Genrator](https://nbgitpuller.readthedocs.io/en/latest/link.html?tab=binder)
