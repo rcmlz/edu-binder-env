@@ -7,5 +7,7 @@ ffmpeg
 rakudo
 tree
 gzip
+zip
+tar
 nano
 vim
