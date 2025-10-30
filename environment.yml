@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
-  - python=3.12
+  - python=3.10
 #  - appmode
 #  - beautifulsoup4
   - bokeh
@@ -20,8 +20,8 @@ dependencies:
   - jupyterlab-git
   - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
-  - jupyterlab-rise
-  - jupyterlab-mathjax3
+  #- jupyterlab-rise
+  #- jupyterlab-mathjax3
   - jupytext
   - keras
   - keyboard
