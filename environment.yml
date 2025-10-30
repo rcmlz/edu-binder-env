@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
-  - python=3.10
+  - python
 #  - appmode
 #  - beautifulsoup4
   - bokeh
@@ -41,7 +41,7 @@ dependencies:
   - pylint
   - pytorch
   - requests
-#  - rise
+  - rise
   - scikit-learn
   - scipy
   - scrapy
