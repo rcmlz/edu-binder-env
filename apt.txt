@@ -5,7 +5,6 @@ inkscape
 gnuplot
 ffmpeg
 rakudo
-zef
 tree
 gzip
 nano
