@@ -30,7 +30,7 @@ dependencies:
   - metakernel
   - nbgitpuller
   - numpy
-  - ollama
+#  - ollama
   - openpyxl            
   - pandas
 #  - pgzero
