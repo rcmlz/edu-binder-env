@@ -20,8 +20,8 @@ dependencies:
   - jupyterlab-git
   - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
-  #- jupyterlab-rise
-  #- jupyterlab-mathjax3
+  - jupyterlab-rise
+  - jupyterlab-mathjax3
   - jupytext
   - keras
   - keyboard
