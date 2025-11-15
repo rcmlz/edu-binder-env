@@ -21,7 +21,7 @@ dependencies:
   - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
   - jupyterlab_rise
-  - jupyterlab-mathjax3
+#  - jupyterlab-mathjax3
   - jupytext
   - keras
   - keyboard
