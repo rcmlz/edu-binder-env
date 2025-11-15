@@ -20,7 +20,7 @@ dependencies:
   - jupyterlab-git
   - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
-  - jupyterlab-rise
+  - jupyterlab_rise
   - jupyterlab-mathjax3
   - jupytext
   - keras
