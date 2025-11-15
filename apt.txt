@@ -11,3 +11,5 @@ zip
 tar
 nano
 vim
+git
+git-lfs
