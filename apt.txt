@@ -11,4 +11,3 @@ zip
 tar
 nano
 vim
-quarto
