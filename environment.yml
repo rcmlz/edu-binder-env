@@ -31,6 +31,7 @@ dependencies:
   - nbgitpuller
   - numpy
   - ollama
+  - ollama-python
   - openpyxl            
   - pandas
 #  - pgzero
@@ -62,6 +63,6 @@ dependencies:
 #    - jupyterlab-widgets
 #    - mobilechelonian
 #    - mysql-connector
-#    - pedal
+    - pedal
 #    - pygame-ce
 #    - tkinter
