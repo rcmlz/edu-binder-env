@@ -25,6 +25,8 @@ dependencies:
   - jupytext
   - keras
   - keyboard
+  - llm
+  - litellm
   - mariadb
   - matplotlib
   - metakernel
@@ -32,6 +34,7 @@ dependencies:
   - numpy
   - ollama
   - ollama-python
+  - openai
   - openpyxl            
   - pandas
 #  - pgzero
