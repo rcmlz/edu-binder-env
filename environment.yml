@@ -1,10 +1,11 @@
 channels:
   - main
   - conda-forge
-  - anaconda
+#  - anaconda
 dependencies:
-  - python=3.11
+  - python=3.12
 #  - appmode
+  - asttokens>=2.1.0
 #  - beautifulsoup4
   - bokeh
 #  - boto
