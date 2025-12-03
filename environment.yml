@@ -12,7 +12,7 @@ dependencies:
   - ipympl
 #  - ipython
 #  - ipywidgets
-#  - itables
+  - itables
   - jedi-language-server
 #  - jupyter_contrib_nbextensions
 #  - jupyter_nbextensions_configurator
