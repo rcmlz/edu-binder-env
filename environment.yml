@@ -34,8 +34,8 @@ dependencies:
 #  - metakernel
   - nbgitpuller
   - numpy
-  - ollama
-#  - ollama-python
+#  - ollama
+  - ollama-python
 #  - openai
 #  - openpyxl            
   - pandas
