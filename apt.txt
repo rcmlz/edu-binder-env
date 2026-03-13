@@ -1,9 +1,9 @@
-texlive-full
+#texlive-full
 pandoc
 imagemagick
-inkscape
-gnuplot
-ffmpeg
+#inkscape
+#gnuplot
+#ffmpeg
 rakudo
 tree
 gzip

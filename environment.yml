@@ -1,7 +1,7 @@
 channels:
   - main
-  - conda-forge
-  - anaconda
+#  - conda-forge
+#  - anaconda
 dependencies:
 #  - python=3.12
 #  - appmode
@@ -25,39 +25,39 @@ dependencies:
   - jupyterlab_rise
 #  - jupyterlab-mathjax3
 #  - jupytext
-  - keras
+#  - keras
   - keyboard
-  - llm
-  - litellm
-  - mariadb
+#  - llm
+#  - litellm
+#  - mariadb
   - matplotlib
-  - metakernel
+#  - metakernel
   - nbgitpuller
   - numpy
   - ollama
 #  - ollama-python
 #  - openai
-  - openpyxl            
+#  - openpyxl            
   - pandas
 #  - pgzero
-  - pillow
-  - pip
-  - plotly
-  - prettytable
-  - pycryptodome
-  - pydot
-  - pylint
-  - pytorch
+#  - pillow
+#  - pip
+#  - plotly
+#  - prettytable
+#  - pycryptodome
+#  - pydot
+#  - pylint
+#  - pytorch
   - requests
 #  - rise
-  - scikit-learn
-  - scipy
-  - scrapy
+#  - scikit-learn
+#  - scipy
+#  - scrapy
   - seaborn
-  - tabulate
-  - tensorflow
-  - tikzmagic
-  - wheel
+#  - tabulate
+#  - tensorflow
+#  - tikzmagic
+#  - wheel
 #  - widgetsnbextension
 #  - yapf
 #  - pip:
