@@ -23,6 +23,7 @@ dependencies:
   - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
   - jupyterlab_rise
+  - jupyterlab_freeze
 #  - jupyterlab-mathjax3
 #  - jupytext
 #  - keras
