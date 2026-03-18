@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
-#  - python=3.12
+  - python=3.12
 #  - appmode
 #  - asttokens>=2.1.0
 #  - beautifulsoup4
@@ -23,7 +23,7 @@ dependencies:
   - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
   - jupyterlab_rise
-  - jupyterlab_freeze
+  - jupyterlab-freeze
 #  - jupyterlab-mathjax3
 #  - jupytext
 #  - keras
