@@ -1,7 +1,7 @@
 channels:
   - main
   - conda-forge
-  - anaconda
+#  - anaconda
 dependencies:
 #  - python=3.12
 #  - appmode
@@ -32,7 +32,7 @@ dependencies:
 #  - litellm
 #  - mariadb
   - matplotlib
-#  - metakernel
+  - metakernel
   - nbgitpuller
   - numpy
 #  - ollama
