@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pip install jupyterlab_freeze
+#pip install jupyterlab_freeze

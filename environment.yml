@@ -23,6 +23,7 @@ dependencies:
 #  - jupyterlab-language-pack-de-DE
   - jupyterlab-lsp
   - jupyterlab_rise
+  - jupyterlab-freeze-improved
 #  - jupyterlab_freeze
 #  - jupyterlab-mathjax3
 #  - jupytext
@@ -32,7 +33,7 @@ dependencies:
 #  - litellm
 #  - mariadb
   - matplotlib
-  - metakernel
+#  - metakernel
   - nbgitpuller
   - numpy
 #  - ollama
